@@ -97,4 +97,20 @@ public static void fill(int[] a, int val) --> This will fill all elements of the
 public static void sort(Object[] a) --> this will sort the array in to an ascending order.
 
 How is the size of an array determined in Java?
-The size of n array is determined when the array is created either by specifying it in the original declaration with a number or by directly adding the values when declaring the array using {}. 
+The size of n array is determined when the array is created either by specifying it in the original declaration with a number or by directly adding the values when declaring the array using {}.
+
+What’s the one thing I bring to this career (and a potential employer) that nobody else can?
+
+One of the things that I bring to this career is that I not only have some of the technical skills but also the business mindset to make something not only work but also be right for an organization. Finding the answer sometimes is not the right avenue one might sacrifice time and money to find the best result but money and time are invaluable to an organization. Also, my background in quality and aerospace makes my thought process niched for situations where time and accuracy are vital to giving something to the customer that fits the intent and can be refined in the near future.
+
+What are 3 things I’ll start doing to “un-stick” myself whenever I get stuck on tough piece of code, logic, or feature?
+
+In the event I get stuck in the future the 3 things I will do are:
+
+1. Step away from the problem make sure I relax and only come back to the problem once I have been able to clear my mind.
+2. Remind myself of my 'why' and keep my head to the ground when stuck or feeling hopeless in my studies or developing code.
+3. Asking for help and not making excuses for not getting help from fellow students, TAs, or the instructor.
+
+Things I want to know more about
+
+I would like to know more about the process of waterboarding for complex problems. I find it interesting to be able to solve a complex problem without the use of a code editor and learn how to think to tackle complex problems. In short, whiteboards seem like a fun thing to do but when I do them I want to make sure I follow a rule set for ensuring proper completion of the problem.
