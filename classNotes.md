@@ -124,3 +124,7 @@ Using the right data type with the best suited for the implementations to be mad
 
 How can we ensure that we’ll avoid an infinite recursive call stack?
 We ensure that we'll avoid recursive call stacks by understanding the base case and implementing a guard against this will reduce the likelihood of one introducing a recursive call in the program. In all honesty, this is something that I have done in the past but hope to eliminate going forward as applications are getting more and more complex in this class.  
+
+### The Growth Mindset 
+
+Two of the most influential videos for this assignment where "grit" and " the Growth Mindset". These tow discussions were especially important for me for the reason that they discussed ways in which we can influence growth and adaptability in the mind. KNowing that we all have struggles and ways to get around them seem specially important because I can begin to apply this into my daughters learning. I noticed that for her education was seeking patience and not the knowledge mentioned I'll make sure to pass this on to this next generation but also begin to apply it in my self in all parts of my life. 
