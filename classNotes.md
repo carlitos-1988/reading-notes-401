@@ -114,3 +114,13 @@ In the event I get stuck in the future the 3 things I will do are:
 Things I want to know more about
 
 I would like to know more about the process of waterboarding for complex problems. I find it interesting to be able to solve a complex problem without the use of a code editor and learn how to think to tackle complex problems. In short, whiteboards seem like a fun thing to do but when I do them I want to make sure I follow a rule set for ensuring proper completion of the problem.
+
+
+Data Structures and Algorithms
+
+What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
+
+Using the right data type with the best suited for the implementations to be made. Each sorting algorithm will have it's own Pros and Cons and understanding the data structure will help immensely
+
+How can we ensure that we’ll avoid an infinite recursive call stack?
+We ensure that we'll avoid recursive call stacks by understanding the base case and implementing a guard against this will reduce the likelihood of one introducing a recursive call in the program. In all honesty, this is something that I have done in the past but hope to eliminate going forward as applications are getting more and more complex in this class.  
