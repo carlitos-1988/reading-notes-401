@@ -115,7 +115,6 @@ Things I want to know more about
 
 I would like to know more about the process of waterboarding for complex problems. I find it interesting to be able to solve a complex problem without the use of a code editor and learn how to think to tackle complex problems. In short, whiteboards seem like a fun thing to do but when I do them I want to make sure I follow a rule set for ensuring proper completion of the problem.
 
-
 Data Structures and Algorithms
 
 What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
@@ -123,8 +122,43 @@ What is 1 of the more important things you should consider when deciding which d
 Using the right data type with the best suited for the implementations to be made. Each sorting algorithm will have it's own Pros and Cons and understanding the data structure will help immensely
 
 How can we ensure that we’ll avoid an infinite recursive call stack?
-We ensure that we'll avoid recursive call stacks by understanding the base case and implementing a guard against this will reduce the likelihood of one introducing a recursive call in the program. In all honesty, this is something that I have done in the past but hope to eliminate going forward as applications are getting more and more complex in this class.  
+We ensure that we'll avoid recursive call stacks by understanding the base case and implementing a guard against this will reduce the likelihood of one introducing a recursive call in the program. In all honesty, this is something that I have done in the past but hope to eliminate going forward as applications are getting more and more complex in this class.
 
-### The Growth Mindset 
+### The Growth Mindset
 
-Two of the most influential videos for this assignment where "grit" and " the Growth Mindset". These tow discussions were especially important for me for the reason that they discussed ways in which we can influence growth and adaptability in the mind. KNowing that we all have struggles and ways to get around them seem specially important because I can begin to apply this into my daughters learning. I noticed that for her education was seeking patience and not the knowledge mentioned I'll make sure to pass this on to this next generation but also begin to apply it in my self in all parts of my life. 
+Two of the most influential videos for this assignment where "grit" and " the Growth Mindset". These tow discussions were especially important for me for the reason that they discussed ways in which we can influence growth and adaptability in the mind. KNowing that we all have struggles and ways to get around them seem specially important because I can begin to apply this into my daughters learning. I noticed that for her education was seeking patience and not the knowledge mentioned I'll make sure to pass this on to this next generation but also begin to apply it in my self in all parts of my life.
+
+### Read: Class 03
+
+Primitives vs. Objects
+
+Explain the difference between an “int” and an “Integer” in Java.
+One is a primitive data type with not built in methods the other is an Object with methods build in.
+What is the default value for ints? Integers?
+int = 0;
+Integer = null;
+
+What is autoboxing? Unboxing?
+auto boxing is when Java behind the scenes is able to convert a primitive to a reference type when the declaration may not match. The example used in the reading is:
+Integer j = 1; // autoboxing
+int i = new Integer(1); // unboxing
+
+Exceptions in Java (read the first three sections on the left: What is an Exception, The Catch or Specify Requirement, Catching and Handling Exceptions)
+
+List the three basic categories of exceptions.
+
+1. checked exception
+2. error
+3. runtime exception
+
+What type of statement can you use to handle an exception?
+the try-catch statement this will allow you to try some action and catch the exception not allowing the program to crash and handle the exception. 
+
+Using Scanner to read in a file in Java
+
+Describe a situation where you think it would be useful to have a program that scans text.
+
+Any situation where the program would need input from the outside world. 
+
+What is input from a Scanner broken down into?
+They are broken into tokens and translating individual tokens according to their data type. Not sure what tokens but I would like to know more if helpful to know. 
