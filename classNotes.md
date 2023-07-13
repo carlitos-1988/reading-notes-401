@@ -152,13 +152,63 @@ List the three basic categories of exceptions.
 3. runtime exception
 
 What type of statement can you use to handle an exception?
-the try-catch statement this will allow you to try some action and catch the exception not allowing the program to crash and handle the exception. 
+the try-catch statement this will allow you to try some action and catch the exception not allowing the program to crash and handle the exception.
 
 Using Scanner to read in a file in Java
 
 Describe a situation where you think it would be useful to have a program that scans text.
 
-Any situation where the program would need input from the outside world. 
+Any situation where the program would need input from the outside world.
 
 What is input from a Scanner broken down into?
-They are broken into tokens and translating individual tokens according to their data type. Not sure what tokens but I would like to know more if helpful to know. 
+They are broken into tokens and translating individual tokens according to their data type. Not sure what tokens but I would like to know more if helpful to know.
+
+### Read Class 04
+
+Java OO Tutorial (only the Object and Class ones)
+
+Explain the difference between an object and a class.
+
+Object would be the instance of a class. A class will be the blueprint for a house while a class is the physical representation of the class(blueprint)
+
+Name two types of state that a Student object might have.
+Two types of state that a sutdent object may have are:
+
+1. Suspended status
+2. If the student is registered to the school
+
+Name two types of behaviours that a student object might have.
+
+1. student present ID
+2. Student goes to next class
+
+Java Classes (do NOT do the Nested Classes section)
+
+Explain the significance of a constructor for a class.
+
+The significance for a constructor is that this allows the Object to be instantiated with a minimum amount of data for it to perform basic functions or have a constructor with no arguments. None the less it is important for an object to be able to be instantiated. Usually Java provides a default constructor by default and it should not be modified unless you need to because if modified the class may not be able to be instantiated.  
+
+Write the declaration statement for a class named “Student” (do not fill it with fields and methods).
+
+public Class Student{
+
+    String name;
+    int ID;
+
+    public Student(String name, int id){
+        this.name = name; 
+        this.ID = id;
+    }
+
+    public void someMethod(){
+        //do something
+    }
+}
+
+Binary, Decimal and Hexadecimal Numbers
+
+What is the value of the binary number 1101?
+13
+Write the number 52 in binary. Write it in hexidecimal.
+0110100
+34
