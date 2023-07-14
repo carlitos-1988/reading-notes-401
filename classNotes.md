@@ -216,7 +216,7 @@ Write the number 52 in binary. Write it in hexidecimal.
 
 ### Read Linked Lists
 
-2 Main types of Linked LIsts singly and doubly
+2 Main types of Linked Lists singly and doubly
 
 `Singly` linked List means that a single reference exists to the current node in this case the next item in the list.
 
@@ -228,7 +228,7 @@ Write the number 52 in binary. Write it in hexidecimal.
 
 `current` is another attribute that will keep track of the current item being looked at in the linked list
 
-`for an for each ` do not work with linked lists the best case is to use a combination of a `while loop` and `Next` to iterate over the linked list.
+`for an for each` do not work with linked lists the best case is to use a combination of a `while loop` and `Next` to iterate over the linked list.
 
 as long as Next is not null then the iteration will continue to move forward.
 
@@ -246,4 +246,17 @@ Adding Nodes to middle of list
 
 adding a Node in an undefined location would require for the node to set its Next node to null and iterate through the linked list. By iterating through this until the desired node location is found. Once found the node will be inserted to this location and then Node will have to be set to a +1 from the location and then redo the remaining nodes in a similar way to not break the linked list.
 
-- when developing the Node class remember to be able to be able to pass in values and hold state previously mentioned. 
+- when developing the Node class remember to be able to be able to pass in values and hold state previously mentioned.
+
+
+### Partner Power Hour Report 01
+
+Share one or two ways the speaker’s information will change your approach to your career transition.
+
+1. One way the presentation has changed my approach to career transitioning is how software engineers get screened for jobs. It is interesting to see that some of the ways SW engineers get screened are ways CodeFellows is approaching some of the assignments such as pair programming and testing SW in the interview. 
+
+List a few key take-aways from this presentation.
+
+One of the takeaways from this power hour was the confirmation of not being able to properly finish a whiteboard interview and to understand that one is able to properly breakdown a problem to develop a solution. One of the engineers did mention that white boarding is not done all of the time while actually working but it is good to know that people in your team do know how to whiteboard.  
+
+Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
