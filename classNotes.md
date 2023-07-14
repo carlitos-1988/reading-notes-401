@@ -186,7 +186,7 @@ Java Classes (do NOT do the Nested Classes section)
 
 Explain the significance of a constructor for a class.
 
-The significance for a constructor is that this allows the Object to be instantiated with a minimum amount of data for it to perform basic functions or have a constructor with no arguments. None the less it is important for an object to be able to be instantiated. Usually Java provides a default constructor by default and it should not be modified unless you need to because if modified the class may not be able to be instantiated.  
+The significance for a constructor is that this allows the Object to be instantiated with a minimum amount of data for it to perform basic functions or have a constructor with no arguments. None the less it is important for an object to be able to be instantiated. Usually Java provides a default constructor by default and it should not be modified unless you need to because if modified the class may not be able to be instantiated.
 
 Write the declaration statement for a class named “Student” (do not fill it with fields and methods).
 
@@ -196,13 +196,14 @@ public Class Student{
     int ID;
 
     public Student(String name, int id){
-        this.name = name; 
+        this.name = name;
         this.ID = id;
     }
 
     public void someMethod(){
         //do something
     }
+
 }
 
 Binary, Decimal and Hexadecimal Numbers
@@ -212,3 +213,37 @@ What is the value of the binary number 1101?
 Write the number 52 in binary. Write it in hexidecimal.
 0110100
 34
+
+### Read Linked Lists
+
+2 Main types of Linked LIsts singly and doubly
+
+`Singly` linked List means that a single reference exists to the current node in this case the next item in the list.
+
+`Node` is the name of the item that exists within a list
+
+`Next` is considered to be the method that lives inside a node that will point to the next item in a list
+
+`head` will be an attribute that exists in the node indicating where the list begins
+
+`current` is another attribute that will keep track of the current item being looked at in the linked list
+
+`for an for each ` do not work with linked lists the best case is to use a combination of a `while loop` and `Next` to iterate over the linked list.
+
+as long as Next is not null then the iteration will continue to move forward.
+
+Important initialization for this code is to set the `current` attribute to the `head` in order to be able to begin in the linked list
+
+- The big O notation for `Time` this would be O(n) this is because at the worst case scenario would be that the item being looked for could be in the last location
+
+Adding nodes can have different O(n) efficiencies
+
+- Adding a node to the beginning will have an O(1) time complexity if the node is added with `head` and `current` properly being reset.
+
+Adding Nodes to middle of list
+
+- Adding a node to the middle of the node will have a O(n)
+
+adding a Node in an undefined location would require for the node to set its Next node to null and iterate through the linked list. By iterating through this until the desired node location is found. Once found the node will be inserted to this location and then Node will have to be set to a +1 from the location and then redo the remaining nodes in a similar way to not break the linked list.
+
+- when developing the Node class remember to be able to be able to pass in values and hold state previously mentioned. 
