@@ -260,3 +260,31 @@ List a few key take-aways from this presentation.
 One of the takeaways from this power hour was the confirmation of not being able to properly finish a whiteboard interview and to understand that one is able to properly breakdown a problem to develop a solution. One of the engineers did mention that white boarding is not done all of the time while actually working but it is good to know that people in your team do know how to whiteboard.  
 
 Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
+
+
+### Read Class 06
+
+Java OO Tutorial (review Object and Class, read the rest)
+
+What is the difference between an Object and a Class in Java?
+
+The difference between class and an object is that an object is an instance in memory with methods and attributes tied to it while a class is the set of instructions that will model the behaviors of an object. 
+
+Explain to a non-technical friend the concept of inheritance in Java.
+
+In java there will be top level classes. much like blueprints some plans are meant to be shared. When this is the case those attributes and behaviors will need to be passed down if this is the case the use of the work extends and opening up those attributes and behaviors by stetting them up to protected or some level of protection for the method or variable.  
+
+Java Static Keyword
+
+Static methods are also called what? Why?
+Class methods. This is because the method belongs to the class and not the object being instantiated so no need to instantiate to use the method. 
+
+How can you access a variable of a class without instantiating an object from that class?
+Java Singleton Class
+
+What is a Design Pattern? Describe one or two with analogies from your previous work experience.
+One example of a design pattern in the real world would be the implementation of single source of truth for technical data in fixing planes. Although there are many ways to fix an air plane by controlling the way aircraft maintenance is done they can control the predictability of what gets done on an aircraft. 
+
+
+What is a Singleton?
+A design pattern that ensures that a class can only have one object. 
