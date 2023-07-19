@@ -287,4 +287,22 @@ One example of a design pattern in the real world would be the implementation of
 
 
 What is a Singleton?
-A design pattern that ensures that a class can only have one object. 
+A design pattern that ensures that a class can only have one object.
+
+### Read: Class 08
+
+Are there any projects that you’ve built during your time at Code Fellows (or prior) which could benefit from applying the Rule of Three to DRY up your code?
+
+- Absolutely my final 201 project was one that was WET(write everything Ten times ). There was allot of repetition and not enough stepping back to see where repetition was occurring.
+
+Explain how you would dry up your code if you noticed that you are repeating the same logic in multiple places?
+
+- In java this would be done with the use of inheritance and the use of helper methods to not have to rewire iterations. 
+
+Describe some benefits of releasing an MVP of a product.
+
+- it allows you get a working product out to the customer and see if the product is on the right track. 
+
+What are some potential pitfalls of waiting until a product is fully mature to release it.
+
+- the product being produced is far from what the customer expected to be. constant feedback is key to developing the right solution. 
