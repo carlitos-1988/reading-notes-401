@@ -248,19 +248,17 @@ adding a Node in an undefined location would require for the node to set its Nex
 
 - when developing the Node class remember to be able to be able to pass in values and hold state previously mentioned.
 
-
 ### Partner Power Hour Report 01
 
 Share one or two ways the speaker’s information will change your approach to your career transition.
 
-1. One way the presentation has changed my approach to career transitioning is how software engineers get screened for jobs. It is interesting to see that some of the ways SW engineers get screened are ways CodeFellows is approaching some of the assignments such as pair programming and testing SW in the interview. 
+1. One way the presentation has changed my approach to career transitioning is how software engineers get screened for jobs. It is interesting to see that some of the ways SW engineers get screened are ways CodeFellows is approaching some of the assignments such as pair programming and testing SW in the interview.
 
 List a few key take-aways from this presentation.
 
-One of the takeaways from this power hour was the confirmation of not being able to properly finish a whiteboard interview and to understand that one is able to properly breakdown a problem to develop a solution. One of the engineers did mention that white boarding is not done all of the time while actually working but it is good to know that people in your team do know how to whiteboard.  
+One of the takeaways from this power hour was the confirmation of not being able to properly finish a whiteboard interview and to understand that one is able to properly breakdown a problem to develop a solution. One of the engineers did mention that white boarding is not done all of the time while actually working but it is good to know that people in your team do know how to whiteboard.
 
 Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
-
 
 ### Read Class 06
 
@@ -268,23 +266,22 @@ Java OO Tutorial (review Object and Class, read the rest)
 
 What is the difference between an Object and a Class in Java?
 
-The difference between class and an object is that an object is an instance in memory with methods and attributes tied to it while a class is the set of instructions that will model the behaviors of an object. 
+The difference between class and an object is that an object is an instance in memory with methods and attributes tied to it while a class is the set of instructions that will model the behaviors of an object.
 
 Explain to a non-technical friend the concept of inheritance in Java.
 
-In java there will be top level classes. much like blueprints some plans are meant to be shared. When this is the case those attributes and behaviors will need to be passed down if this is the case the use of the work extends and opening up those attributes and behaviors by stetting them up to protected or some level of protection for the method or variable.  
+In java there will be top level classes. much like blueprints some plans are meant to be shared. When this is the case those attributes and behaviors will need to be passed down if this is the case the use of the work extends and opening up those attributes and behaviors by stetting them up to protected or some level of protection for the method or variable.
 
 Java Static Keyword
 
 Static methods are also called what? Why?
-Class methods. This is because the method belongs to the class and not the object being instantiated so no need to instantiate to use the method. 
+Class methods. This is because the method belongs to the class and not the object being instantiated so no need to instantiate to use the method.
 
 How can you access a variable of a class without instantiating an object from that class?
 Java Singleton Class
 
 What is a Design Pattern? Describe one or two with analogies from your previous work experience.
-One example of a design pattern in the real world would be the implementation of single source of truth for technical data in fixing planes. Although there are many ways to fix an air plane by controlling the way aircraft maintenance is done they can control the predictability of what gets done on an aircraft. 
-
+One example of a design pattern in the real world would be the implementation of single source of truth for technical data in fixing planes. Although there are many ways to fix an air plane by controlling the way aircraft maintenance is done they can control the predictability of what gets done on an aircraft.
 
 What is a Singleton?
 A design pattern that ensures that a class can only have one object.
@@ -297,12 +294,45 @@ Are there any projects that you’ve built during your time at Code Fellows (or 
 
 Explain how you would dry up your code if you noticed that you are repeating the same logic in multiple places?
 
-- In java this would be done with the use of inheritance and the use of helper methods to not have to rewire iterations. 
+- In java this would be done with the use of inheritance and the use of helper methods to not have to rewire iterations.
 
 Describe some benefits of releasing an MVP of a product.
 
-- it allows you get a working product out to the customer and see if the product is on the right track. 
+- it allows you get a working product out to the customer and see if the product is on the right track.
 
 What are some potential pitfalls of waiting until a product is fully mature to release it.
 
-- the product being produced is far from what the customer expected to be. constant feedback is key to developing the right solution. 
+- the product being produced is far from what the customer expected to be. constant feedback is key to developing the right solution.
+
+### Read: Class 09
+
+What are the five steps in the HTTP Request Lifecycle?
+
+1. Local Processing
+2. Resolve an IP
+3. Establish TCP Connection
+4. Send an HTTP Request
+5. Tearing down and cleaning up
+
+   What are the two things the client needs before it can make an HTTP Request?
+   TCP connection and an IP address
+
+   Explain the four way handshake and what it does.
+
+   1. client sends `FIN` packet over TCP
+   2. server sends back `ACK` with a `FIN` (generally)
+   3. client responds with `ACK`
+
+True or False: When making an HTTP request, you MUST follow any redirect returned by the request. Back up your answer.
+
+Not sure but reading says that we can retrieve location header and create a new request to the redirect meaning that we have a choice to not follow the redirect code 301 or 302.
+
+Which built-in Java class can be used to perform an HTTP request?
+
+HttpUrlConnection
+
+What HTTP status codes represent a successful response? A redirect? A client error?
+
+successful 200-299
+redirect 300-399
+client error 400-499
