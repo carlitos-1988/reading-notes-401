@@ -336,3 +336,18 @@ What HTTP status codes represent a successful response? A redirect? A client err
 successful 200-299
 redirect 300-399
 client error 400-499
+
+### Career: Class 09: Workshop #2 Prep - Stage Fright
+
+Write about two things that you will implement to improve your anxiety when giving a presentation.
+
+- Use Metaphors, Similes, and Analogies
+  - This something that is normal part of my speech. Something that at times my friends I do too much but if I am cautious of not overdoing I feel that I may be able to use this to my advantage.
+- 3 Part Lists
+  - If not being impromptu then I will make sure that when saying my professional pitch I am able to break it down to 3 memorable topics and stay to this template.
+- 'What is?' and 'what could be? ending with 'end promise'
+  - When speaking in an interview setting I could state something along the lines of situations where what it was what it could be and what I did with results. Slightly different but overall I feel like this could be used to my benefit.
+- 'avoiding self touch'
+  - I am aware that at times when I am nervous I tend to touch my body and hair. By being conscious of this behavior I can ensure that I focus on the message than displaying signs of nervousness.
+- include the audience
+  - While it is understandable that in an interview setting it is about the applicant there is still a requirement to include the interviewers, 'new' team, and the organization you plan to help. Use inclusive words for this do not ME ME ME the situation. 
