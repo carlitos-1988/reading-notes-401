@@ -358,6 +358,12 @@ WHY did you decide to learn technical skills
 
 - One of the major reasons why I decided to get technical skill with Java is because my current job uses it with it's enterprise applications. In my current role as an analyst I have seen and understand the importance of not only working with the language and it's frameworks but also the importance of using it correctly. I believe that my background in Aircraft maintenance and quality assurance have helped med develop my skills in troubleshooting, analysis, and research to be used in software development. My ultimate goal is to acquire a position where I am able to implement and develop quality solutions that make a difference in peoples lives.
 
+Updated using Chat-GPT:
+
+- The primary motivation behind my pursuit of technical proficiency in Java stems from its extensive use in enterprise applications within my current job. As an analyst, I have witnessed firsthand the significance of not only working with the language and its frameworks but also employing it correctly. My prior experience in Aircraft maintenance and quality assurance has played a vital role in honing my troubleshooting, analytical, and research skills, all of which I find highly applicable to software development.
+
+My ultimate objective is to secure a position where I can utilize my expertise to implement and develop top-notch solutions that positively impact people's lives. I am driven by the desire to create quality solutions that bring about a real difference, and Java proficiency is a crucial stepping stone on this career path.
+
 WHAT were you doing before you made this pivot
 
 Ideal environment HOW you'll use this skill
@@ -383,4 +389,28 @@ IsEmpty O(1) - checking to see if list is empty
 FIFO - First In First Out
 LILO - Last In Last Out
 
+### Career: Class 10: Partner Power Hour - Report #2
 
+Share one or two ways the speaker’s information will change your approach to your career transition.
+
+Although covered in class one of the biggest takeaways for this course was the explanation of the domains of a whiteboard:
+
+1. Problem domain - Provided
+2. Test/edge cases - what will break the code, think about those situations where the code can break.
+   is it character specific? are there only positive values can I receive a null.
+3. input/output - what is the expected datatype to be returned
+4. Visual - What it looks like and how things move. Ask the interviewer what type of datatype they would like for you to use or if an array is to be used ask for the size and data types for this
+5. Algorithm - English words of what will happen
+6. Big O - looking and time and space. This is an area that I need more expertise on but will for sure work on it.
+7. code - Syntax of your algorithm
+8. Walkthrough - verification
+
+List a few key take-aways from this presentation.
+
+One of the key takeaways is the use of the picture we get on our labs. I am able to understand it better now with the presentation. At times during class I do not have the steps committed to memory and ultimately lose track of the current and next step.
+
+Being able to write the problem domain as it is said and THEN writing it in your own words. 
+
+Asking questions before moving on in the Algorithm seem like a good idea for feedback. Speaker states that the interviewer may not give feedback but it is always good to ask. 
+
+Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
