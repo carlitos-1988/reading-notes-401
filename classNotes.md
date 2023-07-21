@@ -350,4 +350,37 @@ Write about two things that you will implement to improve your anxiety when givi
 - 'avoiding self touch'
   - I am aware that at times when I am nervous I tend to touch my body and hair. By being conscious of this behavior I can ensure that I focus on the message than displaying signs of nervousness.
 - include the audience
-  - While it is understandable that in an interview setting it is about the applicant there is still a requirement to include the interviewers, 'new' team, and the organization you plan to help. Use inclusive words for this do not ME ME ME the situation. 
+  - While it is understandable that in an interview setting it is about the applicant there is still a requirement to include the interviewers, 'new' team, and the organization you plan to help. Use inclusive words for this do not ME ME ME the situation.
+
+#### my why
+
+WHY did you decide to learn technical skills
+
+- One of the major reasons why I decided to get technical skill with Java is because my current job uses it with it's enterprise applications. In my current role as an analyst I have seen and understand the importance of not only working with the language and it's frameworks but also the importance of using it correctly. I believe that my background in Aircraft maintenance and quality assurance have helped med develop my skills in troubleshooting, analysis, and research to be used in software development. My ultimate goal is to acquire a position where I am able to implement and develop quality solutions that make a difference in peoples lives.
+
+WHAT were you doing before you made this pivot
+
+Ideal environment HOW you'll use this skill
+
+Communicate with your words body language vocal intonation
+
+### Stacks & Queues
+
+Common Terminology:
+
+Enqueue O(1) - Nodes or items that are added to the queue.
+Dequeue O(1) - Nodes or items that are removed from the queue. If called when the queue is empty an exception will be raised.
+Front - This is the front/first Node of the queue.
+Rear - This is the rear/last Node of the queue.
+Peek O(1) - When you peek you will view the value of the front Node in the queue. If called when the queue is empty an exception will be raised.
+IsEmpty O(1) - returns true when queue is empty otherwise returns false.
+
+Push O(1) - Pushing a node to the stack
+Pop O(1) - Removing a node from the stack
+Peek O(1) - checking the top of the stack and working down as needed
+IsEmpty O(1) - checking to see if list is empty
+
+FIFO - First In First Out
+LILO - Last In Last Out
+
+
