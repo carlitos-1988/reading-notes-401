@@ -414,3 +414,25 @@ Being able to write the problem domain as it is said and THEN writing it in your
 Asking questions before moving on in the Algorithm seem like a good idea for feedback. Speaker states that the interviewer may not give feedback but it is always good to ask. 
 
 Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
+
+
+### Read: Class 11
+
+Spring App Basics
+
+1. What role do the @Controller classes play in a Spring MVC application?
+   1.  1. Within Thymelead the Controller will be responsible for handling HTTP request such as GET, POST, PUT, DELETE
+2. Explain to a non-technical friend what a GET request is.
+   1. The GET request is one of 4 methods available on the web if not this we can either request the application to put something in the database or delete it from the database of the application
+3. What annotation should be placed on your Spring Boot application class?
+   1. @Controller?
+
+
+Spring MVC and Thymeleaf
+
+1. What method allows for a variable defined in Java (in your Spring Controller) to be dispalyed in HTML with the help of Thymeleaf?
+   1. @RequestMapping
+2. Explain the role of a @Controller class in a Spring MVC application.
+   1. The controller provides access to the application behavior 
+3. What is a model attribute refered to in Thymeleaf?
+   1. a model would be the object representation that 
