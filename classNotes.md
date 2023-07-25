@@ -409,30 +409,56 @@ List a few key take-aways from this presentation.
 
 One of the key takeaways is the use of the picture we get on our labs. I am able to understand it better now with the presentation. At times during class I do not have the steps committed to memory and ultimately lose track of the current and next step.
 
-Being able to write the problem domain as it is said and THEN writing it in your own words. 
+Being able to write the problem domain as it is said and THEN writing it in your own words.
 
-Asking questions before moving on in the Algorithm seem like a good idea for feedback. Speaker states that the interviewer may not give feedback but it is always good to ask. 
+Asking questions before moving on in the Algorithm seem like a good idea for feedback. Speaker states that the interviewer may not give feedback but it is always good to ask.
 
 Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
-
 
 ### Read: Class 11
 
 Spring App Basics
 
 1. What role do the @Controller classes play in a Spring MVC application?
-   1.  1. Within Thymelead the Controller will be responsible for handling HTTP request such as GET, POST, PUT, DELETE
+   1. 1. Within Thymelead the Controller will be responsible for handling HTTP request such as GET, POST, PUT, DELETE
 2. Explain to a non-technical friend what a GET request is.
    1. The GET request is one of 4 methods available on the web if not this we can either request the application to put something in the database or delete it from the database of the application
 3. What annotation should be placed on your Spring Boot application class?
    1. @Controller?
-
 
 Spring MVC and Thymeleaf
 
 1. What method allows for a variable defined in Java (in your Spring Controller) to be dispalyed in HTML with the help of Thymeleaf?
    1. @RequestMapping
 2. Explain the role of a @Controller class in a Spring MVC application.
-   1. The controller provides access to the application behavior 
+   1. The controller provides access to the application behavior
 3. What is a model attribute refered to in Thymeleaf?
-   1. a model would be the object representation that 
+   1. a model would be the object representation that
+
+### Read Class 12
+
+Reading
+Spring guide: Accessing Data with JPA
+
+How are query methods defined when using Spring Data JPA?
+
+1. @Entity
+   Which dependencies will you need in order to complete the Spring guide?
+1. Java 17+
+1. Gradle 7.5+
+1. Maven 3.5+
+1. Spring Data JPA
+1. H2 Database
+   What annotations are used to specify an auto generated identification number for an Entity?
+   @Id
+   @GeneratedValue(strategy=GenerationType.AUTO)
+
+Baeldung: Comparing repositories (we’ll be using JpaRepository)
+
+Which of the Spring Data Repositories covered in the readings has the most methods available to it?
+
+1. JPA Repository
+   Name a downside of a Spring Data Repository.
+2. It may have more methods that what is needed
+   How would you define an operation to find a student based on their name in a repo named StudentRepository which extends JpaRepository?
+   From the looks of there is no return for one student. If you could look up by student ID then you would return one student instead of findAll() method available.
