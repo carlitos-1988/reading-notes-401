@@ -475,23 +475,22 @@ Understanding the difference between understanding a language and understanding 
 
 Key Takeaways:
 
-One of the major reasons why I chose this is because at my current company the buzzword has been DevOps and Digital thread. Listening to this podcast has given me clarity into the history of developers and operations. Understanding that speed is a premium and for organizations that are trying to get something to market while taking into account the realities of the the current environment was difficult. Even when the two wanted to work together they could not because they where on separate teams whose focus was different. Incentives drive how each will focus. Dev = new features OPS = reliability and uptime. Each conflicting with each other. Scot Hansen PM at .Net interview was great in explaining what DevOps is. `It is a set of practices that is intended to reduce the time between committing a change and that change going into production while ensuring quality` What best practices can you do and define to continuously push to production while ensuring high quality. One great note from this is how the PM of .Net noted that DevOps is not a job title, it is not a tool, it is not magic enterprise fairy dust. It is an organization approach to this not a thing. People may have missed the point if they think it is a job or a tool. Another key takeaway was for this was not establishing a development environment close to production. This inability made it difficult to have code work in production. Tooling and the importance of it. Being able to hit market within hours is possible with DevOps tooling that is open source. Reminder that tools make it faster but they are not the solution the solution still belongs with the practices. DevOps cannot be successful without the buy in from leadership and working together. One of the last things I will think about is how developers in the past have broken code so much to the point where OPS did not trust them and were weary of them developing and using tools to push production. culture makes the tools and the Tools influence the culture. 
-
+One of the major reasons why I chose this is because at my current company the buzzword has been DevOps and Digital thread. Listening to this podcast has given me clarity into the history of developers and operations. Understanding that speed is a premium and for organizations that are trying to get something to market while taking into account the realities of the the current environment was difficult. Even when the two wanted to work together they could not because they where on separate teams whose focus was different. Incentives drive how each will focus. Dev = new features OPS = reliability and uptime. Each conflicting with each other. Scot Hansen PM at .Net interview was great in explaining what DevOps is. `It is a set of practices that is intended to reduce the time between committing a change and that change going into production while ensuring quality` What best practices can you do and define to continuously push to production while ensuring high quality. One great note from this is how the PM of .Net noted that DevOps is not a job title, it is not a tool, it is not magic enterprise fairy dust. It is an organization approach to this not a thing. People may have missed the point if they think it is a job or a tool. Another key takeaway was for this was not establishing a development environment close to production. This inability made it difficult to have code work in production. Tooling and the importance of it. Being able to hit market within hours is possible with DevOps tooling that is open source. Reminder that tools make it faster but they are not the solution the solution still belongs with the practices. DevOps cannot be successful without the buy in from leadership and working together. One of the last things I will think about is how developers in the past have broken code so much to the point where OPS did not trust them and were weary of them developing and using tools to push production. culture makes the tools and the Tools influence the culture.
 
 ### Read: Class 13
 
 Name a few real life examples of “One To Many” relatioships.
 
-1. Bank accounts a person can have multiple accounts but an account cant have many persons. 
+1. Bank accounts a person can have multiple accounts but an account cant have many persons.
 2. a login session a person can have many active sessions but a session can not have many people
 
 Given two entities, one named Player and one named Team, if you wanted to create a one to many relationship with those entities which would be the one and which would be the many?
 
-The player would be One and the team would be many 
+The player would be One and the team would be many
 
 Explain one to many relationships to a non-technical friend.
 
-The relationship one to many is one where there exists a finite number or resources and one person at a time is able to hold those resources. Kind of sort of an apple at the store you the ONE can pick MANY of the APPLES how many you choose is up to you. 
+The relationship one to many is one where there exists a finite number or resources and one person at a time is able to hold those resources. Kind of sort of an apple at the store you the ONE can pick MANY of the APPLES how many you choose is up to you.
 
 Describe the difference between a unit test and an integration test.
 unit testing as done in class so far is to test the functionality of a single method. Integration tests seem to be an aggregate of tests comprising the use of many parts and resources
@@ -501,3 +500,28 @@ What is the object that provides support for Spring MVC Testing?
 
 What does the “perform()” method do in a Spring integration test?
 It will call a GET request method. The result can then be checked through assertions for processing.
+
+### Read Class 14
+
+Reading
+Intro to password hashing
+
+Define the term “hashing”.
+
+- Hashing is the practice of using a mathematical algorithm that maps data of any size to a bit string of a fixed size
+- its is easu and practical to compute the hash but difficult to regenerate back to the original input
+
+Explain to a non-technical friend what a hash function does to a password.
+bcrypt overview
+
+- to hash a password is to use math to be able to split a piece of text into an order that is not able to be regenerated to the original condition 
+
+What does it mean to ‘salt’ a password?
+
+To salt a password is pretty much adding random text for the hash algo to take in more text to shift around. 
+
+What piece of information would a hacker need to access in order to find the ‘salt’ string for your passwords?
+jBCrypt (the paragraphs and code example at the top of the page)
+
+How does the Blowfish block cipher handle the increased computation speed of new computers?
+What are the issue with the two most commong password hashes for Java (“Java password hash” and “Java password encryption”)?
