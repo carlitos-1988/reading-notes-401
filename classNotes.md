@@ -514,14 +514,74 @@ Define the term “hashing”.
 Explain to a non-technical friend what a hash function does to a password.
 bcrypt overview
 
-- to hash a password is to use math to be able to split a piece of text into an order that is not able to be regenerated to the original condition 
+- to hash a password is to use math to be able to split a piece of text into an order that is not able to be regenerated to the original condition
 
 What does it mean to ‘salt’ a password?
 
-To salt a password is pretty much adding random text for the hash algo to take in more text to shift around. 
+To salt a password is pretty much adding random text for the hash algo to take in more text to shift around.
 
 What piece of information would a hacker need to access in order to find the ‘salt’ string for your passwords?
 jBCrypt (the paragraphs and code example at the top of the page)
 
 How does the Blowfish block cipher handle the increased computation speed of new computers?
 What are the issue with the two most commong password hashes for Java (“Java password hash” and “Java password encryption”)?
+
+### Read:Trees
+
+- Node - A Tree node is a component which may contain its own values, and references to other nodes
+- Root - The root is the node at the beginning of the tree
+- K - A number that specifies the maximum number of children any node may have in a k-ary - tree. In a binary tree, k = 2.
+- Left - A reference to one child node, in a binary tree
+- Right - A reference to the other child node, in a binary tree
+- Edge - The edge in a tree is the link between a parent and child node
+- Leaf - A leaf is a node that does not have any children
+- Height - The height of a tree is the number of edges from the root to the furthest leaf
+
+Traversals
+
+- Depth first traversal is where we prioritize going through the depth (height) of the tree first. There are multiple ways to carry out depth first traversal
+  - Pre-order: root >> left >> right
+    - Example Root = a
+    - A has B(left) and C(right) Nodes
+    - B has D(left) and E(right) Nodes
+    - C has F(left) Node only
+      1. Create an `output Stack`
+      2. sets root to `top` of stack if it is there
+      3. check if root has `left` if it does recursively call the method to add the `left` node to the output stack, here it is B.
+      4. check if B has `left` it does so add D to the stack
+      5. check if D has `left` it does not check if it has `right` is both are null D will be popped of the stack,if right was not null then the recursive check will continue
+      6. Returning back to the stack B is on top of the stack it will now check if `right` is present in this case E is present and moved to the stack
+      7. E since it is on the top of the stack is checked for `left` and `right` both null so E is popped of the stack
+      8. Returning back to B it has checked both `left` and `right` so now it pops off the stack
+      9. We now return back to A since it is the last item on the stack
+      10. A is not checked for `right` since `left` is already checked
+      11. now all checks leading up to the r`right` nodes down to the leaf have been done all checks for `right` are done leading to nulls
+  - In-order: left >> root >> right
+  - Post-order: left >> right >> root
+- The most common way to traverse through a tree is to use recursion.
+  - rely on the call stack to navigate back up the tree when we have reached the end of a sub-path.
+
+Breath First
+
+- traversal type by going through each level of the tree node Node by Node
+- Traditionally the breadth first traversal uses a `queue` instead of a call stack
+  starting with:
+
+                            A(1)
+
+                (2a)(3) B<-- || -->C(2b)(4)
+
+     (3)(5) D<-- -->E (3)(5) || F(4)(5) <-- --> null
+
+1. start by putting `root` in to the queue
+2. A gets dequeued and used somewhere else in code maybe added to an array A dequeued will add B and C to the queue starting with left side then right side of queue
+3. since B is added to the front of the queue it is now popped off and it's left and right are added to the queue remaining C inside the queue
+4. C only has a left node of F it is now moved into the queue, once it's left is pushed into the queue C is popped of the queue
+5. towards the end if the remaining leafs will not have a left or right they simply pop off without adding to the queue and then the que continues to check for nodes until there is nothing left in the queue
+
+
+Big(O) 
+
+Time Complexity for inserting a new node = O(n)
+
+Time Complexity for searching for a specific node will also be = O(n)
