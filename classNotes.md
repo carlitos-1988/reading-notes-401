@@ -571,7 +571,7 @@ Breath First
 
                 (2a)(3) B<-- || -->C(2b)(4)
 
-     (3)(5) D<-- -->E (3)(5) || F(4)(5) <-- --> null
+  (3)(5) D<-- -->E (3)(5) || F(4)(5) <-- --> null
 
 1. start by putting `root` in to the queue
 2. A gets dequeued and used somewhere else in code maybe added to an array A dequeued will add B and C to the queue starting with left side then right side of queue
@@ -579,9 +579,27 @@ Breath First
 4. C only has a left node of F it is now moved into the queue, once it's left is pushed into the queue C is popped of the queue
 5. towards the end if the remaining leafs will not have a left or right they simply pop off without adding to the queue and then the que continues to check for nodes until there is nothing left in the queue
 
-
-Big(O) 
+Big(O)
 
 Time Complexity for inserting a new node = O(n)
 
 Time Complexity for searching for a specific node will also be = O(n)
+
+### Workshop#3 Assignment
+
+Reflect on what you learned today. Submit three tips in each category below that you picked up today. What advice do you want to give to your future self about:
+
+Offer and Negotiations?
+
+- A: Do not accept the first offer it is ok to negotiate
+- B: Do not seem desperate to receive an offer it is good to get one but you still need to sit back and view it
+- C:Negotiate to what you think you are worth and what is fair for the market. 
+  Targeted job search?
+
+  - A: Not only look for the job you want but for the organization you want to work for 
+  - B: Make sure your job search engines are able to send you notifications for the jobs you are looking for.
+  - C: It is ok to use your network to find specific jobs. 
+  Networking?
+  - A: Networking can come in many forms do not dismiss locations/situations when they are not expected
+  - B: It is ok to ask your network for help with jobs more than likely they want to help and see you do good. 
+  C: Do not lose constant contact with your connections and say hello here and there even when you have a job someone else you know could benefit from them.
