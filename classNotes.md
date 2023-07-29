@@ -593,13 +593,36 @@ Offer and Negotiations?
 
 - A: Do not accept the first offer it is ok to negotiate
 - B: Do not seem desperate to receive an offer it is good to get one but you still need to sit back and view it
-- C:Negotiate to what you think you are worth and what is fair for the market. 
-  Targeted job search?
+- C:Negotiate to what you think you are worth and what is fair for the market.
 
-  - A: Not only look for the job you want but for the organization you want to work for 
-  - B: Make sure your job search engines are able to send you notifications for the jobs you are looking for.
-  - C: It is ok to use your network to find specific jobs. 
+Targeted job search?
+
+- A: Not only look for the job you want but for the organization you want to work for
+- B: Make sure your job search engines are able to send you notifications for the jobs you are looking for.
+- C: It is ok to use your network to find specific jobs.
+
   Networking?
-  - A: Networking can come in many forms do not dismiss locations/situations when they are not expected
-  - B: It is ok to ask your network for help with jobs more than likely they want to help and see you do good. 
+
+- A: Networking can come in many forms do not dismiss locations/situations when they are not expected
+- B: It is ok to ask your network for help with jobs more than likely they want to help and see you do good.
   C: Do not lose constant contact with your connections and say hello here and there even when you have a job someone else you know could benefit from them.
+
+### Career: Class 15: Partner Power Hour - Report #3
+
+Share one or two ways the speaker’s information will change your approach to your career transition.
+
+- One of the speakers topics that will change how I approach my career transition is how I will ensure that I look into how to automate the processes I am currently involved with. Ensuring automation and feasibility will be key into how to not only approach tasks but also talk to an interviewer to let them know that not only delivering software but also looking to improve ways we do things. While this is important it is important to look at solvable problems, not everything needs a complicated solution. 
+- Automation cant be trusted but make sure that you are always accounting for edge cases. 
+
+List a few key take-aways from this presentation.
+
+- Understanding how to break down a problem rather than creating a problem. i.e. the automated car killing the woman or a child. 
+- in coding laziness is a virtue, but be smart about laziness 
+- keep code dry 
+- Learn shell scripting, get comfortable with the command line 
+  - Cat
+  - grep
+  - awk
+  - sed
+  - regular expressions
+Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
