@@ -537,7 +537,7 @@ What are the issue with the two most commong password hashes for Java (“Java p
 - Leaf - A leaf is a node that does not have any children
 - Height - The height of a tree is the number of edges from the root to the furthest leaf
 
-Traversals
+#### Traversals
 
 - Depth first traversal is where we prioritize going through the depth (height) of the tree first. There are multiple ways to carry out depth first traversal
   - Pre-order: root >> left >> right
@@ -561,7 +561,7 @@ Traversals
 - The most common way to traverse through a tree is to use recursion.
   - rely on the call stack to navigate back up the tree when we have reached the end of a sub-path.
 
-Breath First
+#### Breath First
 
 - traversal type by going through each level of the tree node Node by Node
 - Traditionally the breadth first traversal uses a `queue` instead of a call stack
@@ -579,11 +579,57 @@ Breath First
 4. C only has a left node of F it is now moved into the queue, once it's left is pushed into the queue C is popped of the queue
 5. towards the end if the remaining leafs will not have a left or right they simply pop off without adding to the queue and then the que continues to check for nodes until there is nothing left in the queue
 
-Big(O)
+#### Binary Tree
+
+- Regular Trees can have any number of children per node but Binary Trees restrict the number of children to two (hence `left` and `right` children)
+- there is no specific sorting order for a binary tree. Nodes can be added into a binary tree wherever space allows.
+
+#### K-ary Trees
+
+- if nodes can have more than `left` and `right` nodes they will be called K-Trees
+- K reffering to the maximum number of children that each Node is able to have
+
+#### Breadth First Traversal to K-th Trees
+
+- Traversing a K-th tree requires a similar approach to the breadth first traversal
+- Nodes are still pushed into a queue, but this time we move down a list of children of length k, instead of checking for the presence of a left and right child
+
+- Remember that the first item queued in breadth first traversal is the root node then each child node for that root, once all are done the children are queued in the order the root children are queued. This will happen untill the leaf Node are reached.
+
+example [root , root-child-1, root-child-2, root-child-3, root-child-1-a, root-child-1-b, root-child-1-c, root-child-2-a, root-child-3-a, root-child-1-b-1]
+
+#### Big(O)
 
 Time Complexity for inserting a new node = O(n)
 
-Time Complexity for searching for a specific node will also be = O(n)
+Time Complexity for searching for a specific node will also be = O(n) because the worst case scenario you would have to iterate through the entire tree before you find the node you are looking for
+
+it is important to not that when doing Big(O) for searching is to consider the worst case scenario.
+
+Time complexity for Big(O) for a node insertion using breadth first insertion will be O(w) where w is the largest width of the tree. width meaning the vertical segments that can be seen in the Tree.
+
+#### Binary Search Trees
+
+A binary Search Tree is a type of tree that does have some structure attached to it. in a BST nodes are organized in a manner where all values that are smaller than the root are placed on the left and all values that are larger than the root are placed to the right
+
+#### Searching a BST
+
+Searching a BST can be done quickly because all you do is compare the node you are searching for against the root of the tree or sub-tree
+
+The best way to approach a BST search is with a `while` loop. The while loop will cycle until a leaf is reached or a match to the value is reached.
+
+Big O for BST
+
+- Time complexity of Binary Search Tree's `insertion` and search operations if O(height). At worst we cycle through till a leaf is reached or the match happens. This will happen as many times as the tree is tall(height) this is under the assumption that the Tree is balanced.
+- Big O space complexity of a BST search would be O(1). During a search there is no allocating any additional space.
+
+Big O Notes
+`Constant`
+O(1) always takes the same amount of time regardless of input. For example, take a function that accepts an integer (called x) and returns double its value
+`Linear`
+O(n) increases according to the size of the input, represented by n. For example, for the following function that accepts n and returns every number from 1 to n:
+`Factorial`
+O(n!) increases in factorial amounts, meaning the time taken increases massively with the input. For example, say we wish to visit five cities around the world and want to see every possible ordering (permutation).
 
 ### Workshop#3 Assignment
 
@@ -611,18 +657,41 @@ Targeted job search?
 
 Share one or two ways the speaker’s information will change your approach to your career transition.
 
-- One of the speakers topics that will change how I approach my career transition is how I will ensure that I look into how to automate the processes I am currently involved with. Ensuring automation and feasibility will be key into how to not only approach tasks but also talk to an interviewer to let them know that not only delivering software but also looking to improve ways we do things. While this is important it is important to look at solvable problems, not everything needs a complicated solution. 
-- Automation cant be trusted but make sure that you are always accounting for edge cases. 
+- One of the speakers topics that will change how I approach my career transition is how I will ensure that I look into how to automate the processes I am currently involved with. Ensuring automation and feasibility will be key into how to not only approach tasks but also talk to an interviewer to let them know that not only delivering software but also looking to improve ways we do things. While this is important it is important to look at solvable problems, not everything needs a complicated solution.
+- Automation cant be trusted but make sure that you are always accounting for edge cases.
 
 List a few key take-aways from this presentation.
 
-- Understanding how to break down a problem rather than creating a problem. i.e. the automated car killing the woman or a child. 
-- in coding laziness is a virtue, but be smart about laziness 
-- keep code dry 
-- Learn shell scripting, get comfortable with the command line 
+- Understanding how to break down a problem rather than creating a problem. i.e. the automated car killing the woman or a child.
+- in coding laziness is a virtue, but be smart about laziness
+- keep code dry
+- Learn shell scripting, get comfortable with the command line
+
   - Cat
   - grep
   - awk
   - sed
   - regular expressions
-Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
+    Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
+
+### Read: Class 17
+
+- In non-technical terms, describe what using OAuth can provide for your application.
+- Which authentication providers are covered in the tutorial?
+
+### Read: Class 18
+
+Many to many relationships
+
+- Name a few examples of real world ManyToMany relationships.
+- Explain the significance of a join table for ManyToMany relationships.
+- What are the values held within a join table?
+  Security: a humorous overview
+
+real world examples for this would be how many students can be in many classes and many classes can have many students. Another would be a bar has many drink and people can order as many drinks as they want (hopefully not mixing).
+
+The significance of a join table table is to create a temporary storage that shows the relationships of each of the original tables without having access to the other fields. by passing the reference to the original object one may be able to query this relationship instead of adding more fields to the already created table.
+
+According to the author of the article, will you ever be truly secure from ALL possible security threats?
+
+- No, this is because threats come from all places and from what I understood the security community is not able to properly set guidelines that are accurate and to the problem.
