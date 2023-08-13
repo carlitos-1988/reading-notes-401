@@ -695,3 +695,20 @@ The significance of a join table table is to create a temporary storage that sho
 According to the author of the article, will you ever be truly secure from ALL possible security threats?
 
 - No, this is because threats come from all places and from what I understood the security community is not able to properly set guidelines that are accurate and to the problem.
+
+### Read Class 19
+
+- Can you change the state of a data structure using functional programming?
+  
+  If the data structure exists within the function then I would say yes but if the data structure lives outside of the method I would say no. 
+
+- Define purely functional programming.
+  
+Pure functional programming is programming where a function does not have a need for outside variables outside variables are not used and state and change happens within the function and the variables passed in to it. 
+
+- How do you think purely functional programming will differ from the programs you’ve written so far in this course?
+
+If I where to transition to pure functional programming I would say that I would have to be much more aware of the state and condition of my program that I currently am. I would have to take in to account the state of variables and track them inside methods so that I would not lose track of them. Ultimately unless I try it I would really know the change. 
+
+
+
