@@ -51,3 +51,22 @@ Create an analogy for Tasks and the back stack. Have we used a similar system be
 
 
 - One of the biggest things that I did not think about in the past about interviewing for the position was to try the product or service that they offer. It interesting to see how one could be able to see the service being offered and how one would be able to create value for that organization based on current skills and potential fit within the organization. Based on the product or offering for the job I would identify my best attributes and skills I have for the job currently. By identifying what skills and attributes are valued by the organization I would be able to best prepare myself for the interview. ANother important aspect that I will prepare myself for is salary negotiations. Understanding what I will currently leave an organization for and what I expect for my salary to be is important for the reason that I do not want to sell myself short and do not want to be underpaid for a position that an organization is willing to pay allot for. Lastly and importantly is to hone in my technical skills for the job I am applying for. If I would apply to a front end engineer job then I would undoubtedly brush up on front end technologies while setting backend technologies to the side. it will all be a matter of perspective and situation for what technologies I brush up and ensure that I am ready to now only perform in the technical side of the interview but also be able to speak intelligently around the technologies being interviewed for. 
+
+
+### Read: Class 27
+
+Questions
+
+- What is a technology you’ve used before that is similar to Shared Preferences?
+
+  - in spring the best way I can relate this technology is by the use of Principal p and the session. Although not entirely the same I can see how there is only one Shared Preferences instance per device and application to be used to persist data across the app. 
+  
+- Why is testing important? Give at least 4 reasons, and explain which is the most important to you and why.
+
+  - Sane reasons as before to be able to test inputs and outputs of the functions of the application 
+  - To test for application behavior and expectations of what is to occur in the application 
+  - To verify that a piece of code is able to be tested on pass tests and built on top of. Not being able to test and building on top of that code can be dangerous behavior in the event that the codebase is not able to be built on. 
+
+- Create an analogy for Tasks and the back stack. Have we used a similar system before? Explain.
+
+- One of the best analogies that comes to mind is the used of the call stack. while the user is able to move from one page to another those pages/activities are pushed on to the back stack and by pressing the back button the top of the stack is pushed off and the old state is returned like the user never left that part of the page.
