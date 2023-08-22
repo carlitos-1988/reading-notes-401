@@ -103,10 +103,31 @@ Share a screenshot of your LinkedIn connection request, including a nicely worde
 Questions
 What are a few alternatives to AWS Amplify? What are the differences? What are the tradeoffs?
 
--  Github: with using github and its tools you do get to learn the tools and services provided by github since you are interacting with them in a more direct manner. With amplify you only deal with the interface but do not get to learn AWS. 
--  Heroku: same as github there is more to learn about the service how it works and how to get it to work with your application. It also allows you to use any technology you want since it is not tied to one particular provider. 
-  
+- Github: with using github and its tools you do get to learn the tools and services provided by github since you are interacting with them in a more direct manner. With amplify you only deal with the interface but do not get to learn AWS.
+- Heroku: same as github there is more to learn about the service how it works and how to get it to work with your application. It also allows you to use any technology you want since it is not tied to one particular provider.
+
 What AWS Region is closest to you?
-Seattle,  US
+Seattle, US
 Zone Name: us-west-2-sea-1a
 Parent Region: US West (Oregon)
+
+### Read Class 32
+
+Questions
+What makes an API RESTful?
+
+- An API is RESTful when two computers are able to communicate in a secure, reliable, and efficient manner.
+
+What is the benefit of using GraphQL? Any downsides?
+
+- One benefit of GraphQL is its ability to pick and choose only the fields that you want to retrieve from the DB. This makes GraphQL faster.
+- Another benefit is the ability to define the data shape returned
+
+Disadvantages:
+
+- Queries can be overly complex
+- There is rate limiting for daily requests
+
+Describe “serverless” to a new 301 Code Fellows student.
+
+- meaning that it is not your computer that is being used. The service i.e. web, storage, mail or anything is being hosted by someone else and all you have to do is understand how the api work in order to be able to interact with the serverless service. 
