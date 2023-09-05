@@ -131,3 +131,62 @@ Disadvantages:
 Describe “serverless” to a new 301 Code Fellows student.
 
 - meaning that it is not your computer that is being used. The service i.e. web, storage, mail or anything is being hosted by someone else and all you have to do is understand how the api work in order to be able to interact with the serverless service. 
+
+
+### Career: Class 35: Partner Power Hour - Report #7
+
+Share one or two ways the speaker’s information will change your approach to your career transition.
+
+One of the biggest things I will take away from this is to begin to learn GitHub actions. understanding that this is one part of the CICD pipeline it is important to begin to work with the tools that provide continuous integration
+
+
+List a few key take-aways from this presentation.
+
+I have dealt with CICD in the past with my current job. Although I did not have direct actions with this I understand it better now and how important it is when dealing with people who consume your application. Also what it means to a company when it is in the business of providing a service based on software. I also will always ensure that I get with as many experts with respect to security and any other experts. 
+
+Share a screenshot of your LinkedIn connection request, including a nicely worded note, sent to the speaker or someone else at their company.
+
+No LinkedIn connection sent speaker mentioned that she does not do linked in and only really does twitter I don't have twitter.
+
+
+### Hash Tables 
+
+Hashtables are a data structure that utilize key value pairs. This means every Node or Bucket has both a key, and a value.
+
+ hash is the ability to encode the key that will eventually map to a specific location in the data structure that we can look at directly to retrieve the value.
+
+ Since we are able to hash our key and determine the exact location where our value is stored, we can do a lookup in an O(1) time complexity. 
+
+ Hash maps take advantage of an array’s O(1) read access. Instead of adding elements to an array from beginning to end, a hash map uses a “hash function” to place each item at a precise index location, based off it’s key.
+
+ Basically, the hash function takes a key and returns an integer. We use the integer to determine where the key/value pair should be placed in the array. The hash code is calculated in constant time and writing to an array at one index is O(1) so the hash map has O(1) access.
+
+Basically, a hash code turns a key into an integer. It’s very important that hash codes are deterministic: their output is determined only by their input. Hash codes should never have randomness to them. The same key should always produce the same hash code.
+
+creating a Hash
+Add or multiply all the ASCII values together.
+Multiply it by a prime number such as 599.
+Use modulo to get the remainder of the result, when divided by the total size of the array.
+Insert into the array at that index
+
+NOTE : Production systems will have much more robust hashing algorithms that ensure even distribution of values across all buckets and avoid unnecessary collision
+
+Each index of the array can hold many types of values. The trick is how the values are stored in comparison to efficiency. Each Index of the array contain “buckets”. Each of these “buckets” holds one key/value pair combination. When there is no entry in a specific bucket, the buckets (each index of the array) all start null. The hash table starts each bucket empty and overwrites their value once a key generates a hashCode that corresponds with an index.
+
+Since different keys can lead to the same bucket it’s important to store the entire key/value pair in the bucket, not just the value. The key must be stored with the value! If only values were stored in buckets then it would be impossible to determine which value to return when a key led you to a bucket.
+
+### Read Class 36
+
+Amplify and Cognito (read “Getting started” and “Sign in” subsections)
+
+Where in your application should you check the current auth session?
+
+- Amplify.Auth.fetchAuthSession
+
+what is the command that is used to push your changes to the cloud?
+
+-amplify push
+
+What does Amplify Auth do for your application?
+
+- helps you create and configure the auth category with an authentication provider in our case we will use cognito. 
